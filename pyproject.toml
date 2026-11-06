@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "e2d-vtg"
+version = "0.1.0"
+description = "Embedding-to-detection temporal video grounding"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+  "numpy>=1.24",
+  "torch>=2.1",
+  "Pillow>=10.0",
+]
+
+[project.optional-dependencies]
+features = [
+  "transformers>=4.45",
+]
+dev = [
+  "pytest>=8",
+]
+
+[tool.setuptools.packages.find]
+include = ["e2d_vtg*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

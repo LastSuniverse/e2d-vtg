@@ -1,0 +1,32 @@
+﻿# Data, features, runs, and Python artifacts are not part of the source release.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+
+data/
+frames/
+cache/
+models/
+results/
+runs/
+outputs/
+*.ckpt
+*.pt
+*.pth
+*.npz
+*.h5
+*.mp4
+*.mkv
+*.webm
+
+# Keep generated feature metadata out unless explicitly reviewed.
+*.jsonl
+!docs/examples/*.jsonl
+
+# LaTeX/editor files if users later copy paper assets.
+*.aux
+*.log
+*.out
+*.synctex.gz
