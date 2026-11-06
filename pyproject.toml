@@ -24,7 +24,7 @@ dev = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["e2d_vtg*"]
+include = ["e2d_vtg*", "tools*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
