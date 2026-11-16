@@ -34,3 +34,5 @@ outputs/
 # Allow archived run metadata and logs inside results/.
 !results/
 !results/**/*.log
+
+!results/**/metrics.jsonl
