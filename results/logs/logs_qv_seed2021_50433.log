@@ -1,0 +1,22 @@
+usage: train_retrieval_refine.py [-h] --train-jsonl TRAIN_JSONL --eval-jsonl
+                                 EVAL_JSONL --train-video-cache
+                                 TRAIN_VIDEO_CACHE --eval-video-cache
+                                 EVAL_VIDEO_CACHE --train-query-cache
+                                 TRAIN_QUERY_CACHE --eval-query-cache
+                                 EVAL_QUERY_CACHE --output-dir OUTPUT_DIR
+                                 [--video-key {qid,vid}]
+                                 [--video-dim VIDEO_DIM] [--text-dim TEXT_DIM]
+                                 [--clip-len CLIP_LEN] [--grid GRID]
+                                 [--max-video-len MAX_VIDEO_LEN]
+                                 [--max-len MAX_LEN] [--dim DIM] [--rank RANK]
+                                 [--epochs EPOCHS] [--batch-size BATCH_SIZE]
+                                 [--workers WORKERS] [--proposal-k PROPOSAL_K]
+                                 [--rank-score {combined,quality,retrieval}]
+                                 [--train-topk TRAIN_TOPK] [--jitter JITTER]
+                                 [--rank-weight RANK_WEIGHT]
+                                 [--rank-temperature RANK_TEMPERATURE]
+                                 [--lr LR] [--seed SEED] [--amp]
+                                 [--no-refinement] [--no-cross]
+                                 [--no-multiscale] [--no-quality]
+                                 [--no-offset] [--no-tef]
+train_retrieval_refine.py: error: unrecognized arguments: --expected-train 7202 --expected-eval 1550

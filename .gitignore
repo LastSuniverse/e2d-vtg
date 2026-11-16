@@ -9,7 +9,7 @@ data/
 frames/
 cache/
 models/
-results/
+# results/ is tracked: run metadata, logs, and configs (checkpoints stay ignored via *.ckpt)
 runs/
 outputs/
 *.ckpt
@@ -30,3 +30,7 @@ outputs/
 *.log
 *.out
 *.synctex.gz
+
+# Allow archived run metadata and logs inside results/.
+!results/
+!results/**/*.log
