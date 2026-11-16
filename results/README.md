@@ -1,4 +1,4 @@
-﻿# E2D-VTG run archive
+# E2D-VTG run archive
 
 This directory archives the raw training outputs behind the paper
 **"E2D-VTG: Embedding-to-Detection for Query-Conditioned Temporal Grounding"**
@@ -26,7 +26,7 @@ Each run directory contains:
 - `metrics.jsonl`  per-epoch R1@0.3 / R1@0.5 / R1@0.7 / mIoU on the official split
 - `best.json`  best-epoch metrics (the row reported in the paper)
 - `model_best.ckpt` / `last.ckpt`  checkpoints (published as a release asset,
-  not inside git)
+  not inside git; download e2d-vtg-checkpoints.zip from the [v1.0.0 release](https://github.com/LastSuniverse/e2d-vtg/releases/tag/v1.0.0))
 
 ## Mapping to the paper
 
