@@ -1,4 +1,4 @@
-﻿# E2D-VTG
+# E2D-VTG
 
 Query-conditioned temporal grounding with an embedding-to-detection interface.
 The project treats video temporal grounding as 1-D interval detection: a frozen
@@ -15,6 +15,13 @@ predicts interval quality.
   ActivityNet-Captions.
 - Official-split assertions and standardized top-1 `R1@0.3`, `R1@0.5`,
   `R1@0.7`, and `mIoU` reporting.
+
+## Results archive
+
+Training outputs behind the paper (per-epoch metrics, configs, logs,
+and the reproduction environment) are archived under [results/](results) — see
+[results/README.md](results/README.md). Trained checkpoints are attached to the
+[v1.0.0 release](https://github.com/LastSuniverse/e2d-vtg/releases/tag/v1.0.0).
 
 ## Repository layout
 
