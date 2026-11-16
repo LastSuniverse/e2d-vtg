@@ -10,7 +10,7 @@ frames/
 cache/
 models/
 # results/ is tracked: run metadata, logs, and configs (checkpoints stay ignored via *.ckpt)
-runs/
+/runs/
 outputs/
 *.ckpt
 *.pt

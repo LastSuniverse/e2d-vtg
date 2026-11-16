@@ -1,0 +1,15 @@
+{
+  "epoch": 50,
+  "train_loss": 5.957188123095352,
+  "R1@0.3": 0.8451613187789917,
+  "R1@0.5": 0.7400000095367432,
+  "R1@0.7": 0.5664516091346741,
+  "mIoU": 0.6630369424819946,
+  "seconds": 19.16501212120056,
+  "protocol": "QVHighlights train 7202/7202 available queries (226 batches); official val 1550/1550 each epoch; max IoU over all GT windows",
+  "train_queries_used": 7202,
+  "train_batches": 226,
+  "train_queries_expected": 7202,
+  "partial_train": false,
+  "seed": 2021
+}
